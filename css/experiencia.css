@@ -1,0 +1,51 @@
+.experiencia-header {
+  padding: var(--espaco-secao);
+  background-color: var(--color-base-100);
+}
+
+.experiencia-container {
+  display: grid;
+  grid-template-columns: auto minmax(200px, auto);
+  padding: var(--espaco-secao);
+  gap: var(--espaco-2);
+}
+
+.ano {
+  justify-self: end;
+  color: var(--color-highlight-11);
+  grid-column: 1 / -1;
+}
+
+.empresa {
+  justify-self: start;
+}
+
+.cargo {
+  justify-self: end;
+}
+
+.historico {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 770px) {
+  .experiencia-container {
+    padding: var(--espaco-4) var(--espaco-4) var(--espaco-5) var(--espaco-4);
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .historico {
+    grid-column: 1 / -1;
+    max-width: 80ch;
+  }
+}
+
+@media (max-width: 360px) {
+  .experiencia-container {
+    grid-template-columns: minmax(200px, auto);
+  }
+  .ano,
+  .cargo {
+    justify-self: start;
+  }
+}

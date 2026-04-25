@@ -1,0 +1,6 @@
+.rodape {
+  padding: var(--espaco-secao);
+}
+.rodape p {
+  text-align: center;
+}

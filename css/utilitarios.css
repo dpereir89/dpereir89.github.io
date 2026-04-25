@@ -1,0 +1,58 @@
+:root {
+  --espaco-1: 8px;
+  --espaco-2: 16px;
+  --espaco-3: 24px;
+  --espaco-4: 32px;
+  --espaco-5: 48px;
+  --espaco-6: 64px;
+
+  --espaco-menu: var(--espaco-2);
+  --espaco-hero: var(--espaco-6) var(--espaco-2) var(--espaco-5) var(--espaco-2);
+  --espaco-secao: var(--espaco-2) var(--espaco-2) var(--espaco-5)
+    var(--espaco-2);
+
+  --border-radius: 4px;
+  --border: 1px solid transparent;
+}
+
+.borda {
+  padding: 0.5rem 1rem;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+.borda--tag {
+  border-color: var(--color-base-48);
+}
+
+.borda--destaque {
+  border-color: var(--color-highlight-11);
+}
+
+.borda--card-claro {
+  border-color: var(--color-base-94);
+}
+
+.borda--card-escuro {
+  border-color: var(--color-base-16);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap:var(--espaco-1);
+  padding: 0.5rem 1rem;
+  color: var(--color-highlight-1);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  border-color: var(--color-highlight-11);
+  background-color: var(--color-highlight-11);
+  font-family: var(--ff-body);
+  font-weight: var(--fw-bold);
+  font-size: var(--fz-200);
+}
+
+.btn--destaque {
+  background-color: var(--color-base-94);
+}

@@ -1,0 +1,72 @@
+.projetos {
+  max-width: 100%;
+  padding: var(--espaco-secao);
+  background-color: var(--color-base-100);
+}
+
+.projetos__titulo {
+  margin-bottom: var(--espaco-5);
+}
+
+.projetos-card {
+  padding: var(--espaco-2) var(--espaco-1) var(--espaco-5) var(--espaco-1);
+  display: grid;
+  justify-items: start;
+  gap: var(--espaco-2);
+  background-color: var(--color-base-97);
+}
+.projetos-card:hover {
+  border-color: var(--color-highlight-11);
+}
+.projetos-card__titulo {
+  margin-bottom: var(--espaco-4);
+}
+.projetos-card__imagem {
+  justify-self: center;
+}
+
+.projetos-tecnologias {
+  display: flex;
+  gap: var(--espaco-1);
+}
+.projetos-btn {
+  display: flex;
+  gap: var(--espaco-2);
+}
+
+@media (min-width: 770px) {
+  .projetos-card {
+    grid-template-rows: auto 100px auto auto;
+    grid-template-areas: "titulo titulo" 
+                          "texto imagem" 
+                          "tecnologias imagem" 
+                          ". botao";
+    max-width: 590px;
+    margin: 0 auto;
+    padding: var(--espaco-3) var(--espaco-3);
+  }
+  .projetos-card__titulo{
+    grid-area: titulo;
+    justify-self: center;
+  }
+  .projetos-card__texto {
+    grid-area: texto;
+    align-content: center;
+    max-width: 80ch;
+  }
+
+  .projetos-card__imagem{
+    grid-area: imagem;
+  }
+  .projetos-btn {
+    grid-area: botao;
+   justify-self: center;
+  }
+
+  .projetos-tecnologias {
+  grid-area: tecnologias; 
+  place-self: start start;
+  }
+}
+
+

@@ -1,0 +1,28 @@
+.hero-container {
+  max-width: 100%;
+  padding: var(--espaco-hero);
+  display: grid;
+  gap: var(--espaco-2);
+}
+
+.hero-btn {
+  display: flex;
+  gap: var(--espaco-2);
+}
+
+.hero-btn a img {
+  width: 14px;
+  height: 14px;
+}
+
+@media (min-width: 770px) {
+  .hero-container {
+    justify-items: center;
+  }
+  .hero-container h1 {
+    font-size: 3rem;
+  }
+  .hero-container p {
+    max-width: 80ch;
+  }
+}

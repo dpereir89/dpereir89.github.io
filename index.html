@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Diego.dev - Portfólio Pessoal</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo titulo-subsecao  cor-base-100">Diego.dev</div>
+        <nav class="header__menu" aria-label="menu principal">
+            <ul class="header__lista">
+                <li class="header__item">
+                    <a class="header__link texto peso-negrito cor-base-100 borda borda--tag" href="#CONTATO">CONTATO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-container">
+            <h1 class="titulo-principal cor-base-100 ">Desenvolvedor Front-End<span class="detalhe">.</span></h1>
+            <p class="texto cor-base-64">Desenvolvo <strong class="destaque--medio">interfaces responsivas</strong> com <strong class="destaque--medio">HTML</strong> e <strong class="destaque--medio">CSS</strong>, aplicando organização baseada em <strong class="destaque--medio">design system</strong>, <strong class="destaque--medio">reutilização</strong> de estilos e foco em <strong class="destaque--medio">performance</strong> e <strong class="destaque--medio">usabilidade</strong>.</p>
+            <div class="hero-btn">
+                <a class="texto btn" href="#PROJETOS">MEUS PROJETOS</a>
+                <a class="texto btn btn--destaque" href="https://github.com/" target="_blank">
+                    <img src="./img/github.svg" alt="">GITHUB</a>
+            </div>
+        </section>
+        <section class="sobre">
+            <h2 class="titulo-secao cor-base-100">sobre mim<span class="detalhe">.</span></h2>
+            <p class="texto cor-base-64">Olá, sou Diego.
+                Com mais de 15 anos de experiência em TI, construí base sólida em infraestrutura e atendimento ao usuário, desenvolvendo visão técnica em estabilidade, performance e usabilidade.
+                Estou em transição para Desenvolvedor Front-End. Este portfólio é meu primeiro projeto e marca o início dessa nova fase.</p>
+        </section>
+        <!-- Aqui, nesta seção de projetos, foi utilizado a Metodologia BEM apenas para demonstrar meu conhecimento sobre a empregabilidade dela.  -->
+        <section id="PROJETOS" class="projetos">
+            <h2 class="projetos__titulo titulo-secao cor-base-40">projetos<span class="detalhe">.</span></h2>
+            <article class="projetos-card borda borda--card-claro">
+                <h3 class="projetos-card__titulo titulo-subsecao cor-base-24">portfólio pessoal</h3>
+                <img class="projetos-card__imagem" src="./img/projeto.jpg" alt="Preview do projeto portfólio pessoal">
+                <p class="projetos-card__texto texto cor-base-24">Portfólio pessoal desenvolvido para destacar projetos e habilidades em front-end, com foco em experiência do usuário, responsividade e código limpo.</p>
+                <div class="projetos-tecnologias">
+                    <span class="projetos-tecnologias__texto texto peso-negrito destaque--escuro borda borda--tag">HTML</span>
+                    <span class="projetos-tecnologias__texto texto peso-negrito destaque--escuro borda borda--tag">CSS</span>
+                </div>
+                <div class="projetos-btn">
+                    <a class="projetos-btn__botao--principal btn" href="">VER PROJETO</a>
+                    <a class="projetos-btn__botao--destaque btn btn--destaque" href="">VER CÓDIGO</a>
+                </div>
+            </article>
+        </section>
+        <section class="experiencia">
+            <div class="experiencia-header">
+                <h2 class="titulo-secao  cor-base-40">experiência<span class="detalhe">.</span></h2>
+            </div>
+            <div class="experiencia-container">
+                <span class="ano texto texto-pequeno">2023 - presente</span>
+                <span class="empresa texto peso-negrito destaque--medio">IOS Informática</span>
+                <span class="cargo texto peso-negrito destaque--medio">Técnico de Suporte N2</span>
+                <p class="historico texto cor-base-64">Atuação como Técnico de Suporte Pleno, com foco em resolução de problemas, análise de sistemas e atendimento ao usuário. Experiência em diagnóstico de falhas, garantindo estabilidade e desempenho dos serviços, além da aplicação de boas práticas de organização e eficiência.</p>
+            </div>
+        </section>
+        <section class="cursos">
+            <div class="cursos-header">
+                <h2 class="titulo-secao cor-base-40">cursos<span class="detalhe">.</span></h2>
+            </div>
+            <div class="cursos-container">
+                <h3 class="cursos-subtitulo titulo-subsecao cor-base-100">desenvolvimento</h3>
+                <ul class="cursos-lista">
+                    <li class="cursos-item borda borda--card-escuro">
+                        <p class="texto destaque--medio peso-negrito">HTML e CSS para Iniciantes</p>
+                        <p class="texto cor-base-64">Base sólida em estruturação semântica, estilização moderna com Flexbox e Grid, responsividade e boas práticas de layout.</p>
+                        <span class="cursos-tag borda borda--tag texto peso-negrito destaque--medio">Concluído</span>
+                    </li>
+                    <li class="cursos-item borda borda--card-escuro">
+                        <p class="texto destaque--medio peso-negrito">JavaScript Completo ES6+</p>
+                        <p class="texto cor-base-64">Desenvolvimento de interações no DOM, manipulação de eventos, lógica de programação e criação de funcionalidades dinâmicas para interfaces.</p>
+                        <span class="cursos-tag borda borda--tag texto peso-negrito destaque--medio">Em Andamento</span>
+                    </li>
+                    <li class="cursos-item borda borda--card-escuro">
+                        <p class="texto destaque--medio peso-negrito">React</p>
+                        <p class="texto cor-base-64">
+                            Criação de interfaces modernas baseadas em componentes, gerenciamento de estado com hooks e integração com APIs.</p>
+                        <span class="cursos-tag borda borda--tag texto peso-negrito destaque--medio">Em Andamento</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="certificacao-container">
+                <h3 class="certificacao-subtitulo titulo-subsecao cor-base-100">certificações</h3>
+                <ul class="certificacao-lista">
+                    <li><span class="texto borda borda--destaque cor-base-64">ITIL® 4 Foundation</span></li>
+                    <li><span class="texto borda borda--destaque cor-base-64">HDI-DAST</span></li>
+                    <li><span class=" texto borda borda--destaque cor-base-64">Microsoft MD-100</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="contato" id="CONTATO">
+            <div class="contato-header">
+                <h2 class="titulo-secao cor-base-100">contato<span class="detalhe">.</span></h2>
+            </div>
+            <div class="contato-item">
+                <p class="titulo-subsecao cor-base-64">Vamos conversar sobre oportunidades e desafios?</p>
+                <a class="btn" href="https://wa.me/5524992134998?text=MENSAGEM" target="_blank">WHATSAPP</a>
+                <a class="btn btn--destaque" href="https://www.linkedin.com/in/diego-oliveira-pereira-081768156/" target="_blank">LINKEDIN</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="rodape">
+            <p class="texto cor-base-40">© 2026 Diego.dev • projetado no Figma</p>
+        </div>
+    </footer>
+</body>
+
+</html>

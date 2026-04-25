@@ -1,0 +1,22 @@
+.contato-header {
+  padding: var(--espaco-secao);
+}
+
+.contato-item {
+  padding: var(--espaco-secao);
+}
+
+.contato-item p {
+  margin-bottom: var(--espaco-2);
+}
+
+.contato-item a {
+  margin-right: var(--espaco-2);
+}
+
+@media (min-width: 770px) {
+  .contato-item p {
+    max-width: 80ch;
+  }
+ 
+}

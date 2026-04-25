@@ -1,0 +1,14 @@
+.sobre {
+  max-width: 100%;
+  padding: var(--espaco-secao);
+}
+
+.sobre h2 {
+  margin-bottom: var(--espaco-6);
+}
+
+@media (min-width: 770px) {
+  .sobre p {
+    max-width: 80ch;
+  }
+}

@@ -1,0 +1,11 @@
+.header {
+  max-width: 100%;
+  padding: var(--espaco-menu);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__link:hover {
+  border-color: var(--color-highlight-11);
+}
