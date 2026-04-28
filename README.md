@@ -53,4 +53,4 @@ Projeto desenvolvido com abordagem mobile-first, adaptando-se para diferentes ta
 
 ## 📸 Preview
 
-(adicione um print aqui)
+

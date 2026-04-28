@@ -7,8 +7,30 @@
   margin-bottom: var(--espaco-6);
 }
 
+.sobre-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 32px;
+}
+
+.sobre img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
 @media (min-width: 770px) {
   .sobre p {
     max-width: 80ch;
   }
+}
+
+@media (max-width: 768px) {
+  .sobre-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
 }
