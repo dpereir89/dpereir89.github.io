@@ -56,3 +56,14 @@
 .btn--destaque {
   background-color: var(--color-base-94);
 }
+
+.js .animacao {
+   opacity: 0;
+   transform: translateY(30px);
+   transition: all 0.8s ease;
+}
+
+.js .animacao--ativo {
+   opacity: 1;
+   transform: translateY(0);
+}

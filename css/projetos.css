@@ -1,6 +1,5 @@
 .projetos {
   padding: var(--espaco-secao);
-  background-color: var(--color-base-100);
 }
 
 .projetos__titulo {
@@ -19,6 +18,7 @@
 }
 .projetos-card__titulo {
   margin-bottom: var(--espaco-4);
+  justify-self: center;
 }
 .projetos-card__imagem {
   justify-self: center;
@@ -35,11 +35,12 @@
 
 @media (min-width: 770px) {
   .projetos-card {
+    grid-template-columns: auto 1fr;
     grid-template-rows: auto 100px auto auto;
-    grid-template-areas: "titulo titulo" 
-                          "texto imagem" 
-                          "tecnologias imagem" 
-                          ". botao";
+    grid-template-areas: "titulo ." 
+                          "imagem texto"
+                          "imagem tecnologias"
+                          "botao ." ;
     max-width: 590px;
     margin: 0 auto;
     padding: var(--espaco-3) var(--espaco-3);
