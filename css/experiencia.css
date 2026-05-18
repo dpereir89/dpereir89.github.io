@@ -2,6 +2,11 @@
   padding: var(--espaco-secao);
 }
 
+.experiencia-container {
+  display: grid;
+  padding: var(--espaco-secao);
+  gap: var(--espaco-2);
+}
 .experiencia-item {
   display: grid;
   grid-template-columns: auto minmax(200px, auto);
@@ -17,11 +22,11 @@
   display: block;
   display: grid;
   grid-column: 1 / -1;
-  gap: 20px;
+  gap: var(--espaco-2);
 }
 .experiencia--accordion {
   display: grid;
-  gap: 20px;
+  gap: var(--espaco-2);
 }
 
 .ano {

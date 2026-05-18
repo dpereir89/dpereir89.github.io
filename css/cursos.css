@@ -1,5 +1,5 @@
 .cursos-header {
-  padding: var(--espaco-secao);
+  padding: var(--espaco-4) var(--espaco-2) var(--espaco-5) var(--espaco-2);
 }
 
 .cursos-container {
